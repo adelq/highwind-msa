@@ -38,7 +38,7 @@ if ( ! function_exists( 'highwind_site_title' ) ) {
 				<?php
 					do_action( 'highwind_site_title_link' );
 					if ( apply_filters( 'highwind_header_gravatar', true ) ) {
-						echo get_avatar( apply_filters( 'highwind_header_gravatar_email', $email = esc_attr( get_option( 'admin_email' ) ) ), 256, '', esc_attr( get_bloginfo( 'name' ) ) );
+						//echo get_avatar( apply_filters( 'highwind_header_gravatar_email', $email = esc_attr( get_option( 'admin_email' ) ) ), 256, '', esc_attr( get_bloginfo( 'name' ) ) );
 					}
 				?>
 				<h1 class="site-title"><?php esc_attr( bloginfo( 'name' ) ); ?></h1>
@@ -119,7 +119,7 @@ if ( ! function_exists( 'highwind_post_meta' ) ) {
 	function highwind_post_meta() {
 		if ( ! is_page() ) {
 		?>
-		<aside class="post-meta">
+		<?php /* <aside class="post-meta">
 			<ul>
 				<li class="categories"><?php the_category( ', ' ); ?></li>
 				<li class="comment"><?php comments_popup_link( __( '0 Comments', 'highwind' ), __( '1 Comment', 'highwind' ), __( '% Comments', 'highwind' ) ); ?></li>
@@ -128,7 +128,7 @@ if ( ! function_exists( 'highwind_post_meta' ) ) {
 					<li class="author"><?php the_author_posts_link(); ?></li>
 				<?php } // endif ?>
 			</ul>
-		</aside><!-- /.post-meta -->
+		</aside> */ ?><!-- /.post-meta -->
 		<?php
 		}
 	}
@@ -338,8 +338,8 @@ function highwind_footer_widgets() {
  */
 function highwind_credit() {
 	?>
-	<p>
-		<?php _e( 'Powered by', 'highwind' ); ?> <a href="http://wordpress.org" title="WordPress.org">WordPress</a> &amp; <a href="http://jameskoster.co.uk/highwind/" title="<?php _e( 'Highwind - Customisable and extendable WordPress theme', 'highwind' ); ?>">Highwind</a>.
+	<p style="font-size: 12px;">
+		<?php _e( 'Copyright © 2014 Powered by', 'UPennMSA' ); ?> <a href="http://upennmsa.org" title="UPennmsa">UPennMSA</a> &amp; <a href="http://upennmsa.org" title="<?php _e( 'The Muslim Students Association @ The University of Pennsylvania', 'UPennMSA' ); ?>">The Muslim Students Association @ The University of Pennsylvania</a>.
 	</p>
 	<?php
 }

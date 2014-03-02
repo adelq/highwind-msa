@@ -52,7 +52,7 @@ function highwind_head_top() {
  * @since 1.0
  */
 function highwind_head_bottom() {
-    do_action( 'highwind_head_bottom' );
+    do_action( 'highwind_head_top' );
     tha_head_bottom();
 }
 

@@ -33,7 +33,7 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 
 				<?php highwind_content_header_top(); ?>
 
-				<h1 class="entry-title"><?php _e( 'Nothing Found', 'highwind' ); ?></h1>
+				<h1 class="entry-title"><?php _e( 'Nothing Found', 'Upennmsa' ); ?></h1>
 
 				<?php highwind_content_header_bottom(); ?>
 
@@ -58,6 +58,7 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 	<?php highwind_content_bottom(); ?>
 
 </section>
+
 
 <?php highwind_content_after(); ?>
 

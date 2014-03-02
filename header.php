@@ -19,7 +19,7 @@
 	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title><?php wp_title( '/', true, 'right' ); ?></title>
+	<title><?php wp_title( '|', true, 'right' ); ?></title>
 
 	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,12 +42,14 @@
 
 	<?php highwind_header_before(); ?>
 
-	<header class="header content-wrapper" role="banner" style="background-image:url(<?php echo header_image(); ?>);">
-
+	<?php /*<header class="header content-wrapper" role="banner" style="background-image:url(<?php echo header_image(); ?>);"> */?>
+	<header class="header content-wrapper" role="banner" style="background: url(http://danishmunir.com/wp_upennmsa/wp-content/uploads/2014/01/top_header4.jpg) top center no-repeat; min-height: 240px;">
 		<?php highwind_header(); ?>
 
 	</header>
-
+	<div class="slider">
+		<?php layerslider(7, 'homepage'); ?>
+	</div>
 	<div class="content-wrapper">
 
 	<?php highwind_header_after(); ?>
