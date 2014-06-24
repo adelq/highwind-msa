@@ -1982,7 +1982,7 @@ html {
 }
 body {
   line-height: 1.777;
-  color: #666a76;
+  color: #363a49;
   background: #f8f8f9;
   font-size: 1em;
 }
@@ -2236,7 +2236,7 @@ input.input-text,
 textarea {
   padding: .844em;
   background: rgba(0, 0, 0, 0.05);
-  color: #666a76;
+  color: #363a49;
   border: 0;
   -webkit-border-radius: 0.201em;
   border-radius: 0.201em;
@@ -2260,8 +2260,8 @@ input[type="radio"] {
   /* Firefox, other Gecko */
   /* Opera/IE 8+ */
   font-size: .844em;
-  border: 0.422em solid #666a76;
-  background: #666a76;
+  border: 0.422em solid #363a49;
+  background: #363a49;
   cursor: pointer;
   position: relative;
   -webkit-border-radius: 100%;
@@ -2291,7 +2291,7 @@ input[type="checkbox"] {
   position: relative;
   -webkit-border-radius: 0.201em;
   border-radius: 0.201em;
-  background-color: #666a76;
+  background-color: #363a49;
   margin-right: 1em;
   font-size: .844em;
 }
@@ -2363,7 +2363,7 @@ input[type="button"]:active,
 hr {
   height: 1px;
   border: 0;
-  background: #666a76;
+  background: #363a49;
   filter: alpha(opacity=@opacity * 100);
   -moz-opacity: 0.2;
   -khtml-opacity: 0.2;
