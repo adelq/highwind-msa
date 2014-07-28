@@ -43,7 +43,7 @@
 	<?php highwind_header_before(); ?>
 
 	<?php /*<header class="header content-wrapper" role="banner" style="background-image:url(<?php echo header_image(); ?>);"> */?>
-	<header class="header content-wrapper" role="banner" style="background: url(http://danishmunir.com/wp_upennmsa/wp-content/uploads/2014/01/top_header4.jpg) top center no-repeat; min-height: 240px;">
+	<header class="header content-wrapper" role="banner" style="background: url(http://upennmsa.org/wp-content/uploads/2014/01/top_header4.jpg) top center no-repeat; min-height: 240px;">
 		<?php highwind_header(); ?>
 
 	</header>
