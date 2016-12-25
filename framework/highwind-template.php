@@ -339,7 +339,7 @@ function highwind_footer_widgets() {
 function highwind_credit() {
 	?>
 	<p style="font-size: 12px;">
-		<?php _e( 'Copyright © 2014 Powered by', 'UPennMSA' ); ?> <a href="http://upennmsa.org" title="UPennmsa">UPennMSA</a> &amp; <a href="http://upennmsa.org" title="<?php _e( 'The Muslim Students Association @ The University of Pennsylvania', 'UPennMSA' ); ?>">The Muslim Students Association @ The University of Pennsylvania</a>.
+		<?php _e( 'Copyright © '.date("Y").' Powered by', 'UPennMSA' ); ?> <a href="http://upennmsa.org" title="UPennmsa">UPennMSA</a> &amp; <a href="http://upennmsa.org" title="<?php _e( 'The Muslim Students Association @ The University of Pennsylvania', 'UPennMSA' ); ?>">The Muslim Students Association @ The University of Pennsylvania</a>.
 	</p>
 	<?php
 }
